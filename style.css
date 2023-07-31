@@ -1,0 +1,997 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+.company_logo {
+    display: flex;
+    align-items: center;
+}
+
+.small-airplane {
+    width: 2.5rem;
+}
+
+.main_headings {
+    padding: 4rem 0 2rem 0;
+    line-height: 2.5rem;
+}
+
+.logo_header {
+    padding-left: 10px;
+}
+
+.logo_header, .main_text, .main_text_two, .first_button {
+    color: #ffffff;
+}
+
+.main_text, .main_text_two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.menu_icon {
+    width: 2rem;
+}
+
+.desktop_nav_link {
+    display: none;
+}
+
+.navlink_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.main_header {
+    background-image: url(./images/background-image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0 7rem 0;
+}
+
+.sub_header {
+    background: rgba(0, 0, 0, 0.4);
+    width: 70%;
+    border-radius: 8px;
+    padding: 2rem 1rem;  
+    margin-left: 3.5rem;    
+}
+
+.semi_sub_header {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.p_tag {
+    font-size: 12px;
+    padding-top: 5px;
+    color:#000000;
+    font-weight: normal;
+}
+
+.lorem_text {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 1rem 0;
+}
+
+.sub_section_logo {
+    width: 3rem;
+}
+
+.sub_section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -3rem;
+    background-color: #ffffff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 5px;
+    padding-top: 2rem;
+}
+
+.ticket_field {
+    padding: 1rem 0;
+}
+
+.check_in_field, .guest_field {
+    padding: 4px 0;
+}
+
+.first_button {
+    background-color: #DD3232;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 12px 10px;
+}
+
+.sub_header_two, .sub_header_three, .sub_header_five, .tour_guide, .feedback_subheader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section_two {
+    padding: 3rem 0;
+}
+
+.mountain_hiking_container, .train_img_container, .forest_img_container {
+    padding-left: 12px;
+}
+
+.hiking_our {
+    border-color: #a7a7a7;
+    border-style: hidden solid hidden hidden;
+    border-width: 1px;
+    padding-right: 4px;
+    margin-right: 4px;
+}
+
+.rating, .from_star, .star_icon_container, .fig_header, .clt_field, .footer_logo {
+    display: flex;
+}
+
+.mtn_hik {
+    padding: 5px 12rem 5px 0;
+}
+
+.train_tour {
+    padding: 5px 13rem 5px 0;
+}
+
+.fst_life {
+    padding: 5px 14.5rem 5px 0;
+}
+
+.span {
+    display: flex;
+    color: #000000B2;
+    font-size: 14px;
+}
+
+.from {
+    padding-right: 15.5rem;
+    color: #000000B2;
+}
+
+.star_icon {
+    width: 12px;
+}
+
+.sub_field {
+    padding: 2rem 0;
+}
+
+.cancel, .location {
+    color: #000000b3;
+    padding-left: 8px;
+}
+
+.cancel {
+    padding-right: 3rem;
+}
+
+.sub_time {
+    padding-left: 8px;
+}
+
+.duration, .verification {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.mountain-container, .london_container, .tokyo_container, .greece_container, .sydney_container, .amsterdam_container {
+    position: relative;
+    width: 90%;
+}
+
+.mountain-image-two, .london-bridge, .tokyo_img, .greece_img, .sydney_img, .amsterdam_img {
+    width: 21.5rem;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.greece_img, .sydney_img, .amsterdam_img {
+    height: 30rem;
+}
+
+.content {
+    position: absolute;
+    margin-top: -4rem;
+    text-align: start;
+    color: #fff;
+    padding-left: 1rem;
+    line-height: 1.3rem;
+}
+
+.sub_header_four, .dev_resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.component_ten {
+    width: 96%;
+    border-radius: 8px;
+    height: 20rem;
+}
+
+.component_two {
+    width: 96%;
+    border-radius: 8px;
+    height: 20rem;
+}
+
+.component_three {
+    width: 96%;
+    border-radius: 8px;
+    height: 20rem;
+}
+
+.sub_division {
+    padding-left: 16px;
+}
+
+.reports {
+    font-size: 14px;
+    padding: 8px 0;
+    color: #00000099;
+}
+
+.component_eleven {
+   width: 100%;
+   position: relative;
+}
+
+.youtube_img {
+    margin: 0 auto;
+    width: 3rem;
+}
+
+.youtube {
+    display: flex;
+    justify-items: center;
+    padding: 8rem 0;
+    align-items: center;
+    background-image: url(./images/night_view.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tour_guide {
+    padding: 2rem;
+}
+
+.christian_jud_img {
+    width: 96%;
+    height: 20rem;
+}
+
+.julius_img {
+    width: 96%;
+    height: 25rem;
+}
+
+.cynthia_img {
+    width: 95%;
+}
+
+.registration_section {
+    padding-left: 12px;
+}
+
+.morem_text {
+    color: #00000099;
+    padding-top: 10px;
+}
+
+.recognition {
+    padding: 1rem 0;
+}
+
+.star_icon_two {
+    width: 1rem;
+}
+
+.feedback_subheader {
+    padding: 1rem 0;
+}
+
+.fig {
+    padding-right: 15rem;
+}
+
+.jorem_text {
+    width: 22rem;
+    padding: 1rem 0;
+}
+
+.clt_field {
+    margin: 1rem 0;
+}
+
+.clt_img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.fig_field_one, .fig_field_two, .fig_field_three {
+    padding: 1rem 0 1rem 12px;
+}
+
+.position {
+    padding: 5px 0 0 12px;
+}
+
+.title {
+    color: #00000099;
+}
+
+.last_body {
+    padding: 5rem 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/hill_img_view.jpeg);
+}
+
+.last_header {
+    color: #fff;
+}
+
+.sub_text {
+    background-color: #fff;
+    padding: 1rem 0;
+    width: 22rem;
+}
+
+.subscribe_btn {
+    background-color: #DD3232;
+    border: none;
+    color: #fff;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: flex;
+    padding: 2px 8px;
+    align-items: center;
+}
+
+.footer_links_one, .footer_links_two {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links_one > a, .footer_links_two > a {
+    color: black;
+    line-height: 1.7rem;
+}
+
+.footer_links_one, .footer_links_two, .footer_links_three {
+    margin: 1rem 0;
+}
+
+.arrow-right {
+    padding: 5px;
+}
+
+.logo_header_two {
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.page_footer {
+    padding-left: 12px;
+}
+
+.first_links, .second_links, .third_links {
+    margin: 1rem 0;
+}
+
+.sub_header_four_duplicate  {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu_icon {
+        display: none;
+    }
+
+    .desktop_nav_link {
+        display: block;
+        padding-top: 10px;
+        padding-left: 2rem;
+    }
+
+    .desktop_nav_link > a {
+        color: #fff;
+        padding-left: 1rem;
+    }
+
+    .navlink_logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 1.5rem;
+    }
+
+    .sign_btn {
+        margin-left: 1.5rem;
+        background-color: #DD3232;
+        color: #fff;
+        border-radius: 3px;
+        padding: 4px 12px;
+        border: none;
+    }
+
+    .main_text, .main_text_two {
+        font-size: 1.7rem;
+    }
+
+    .sub_header {
+        width: 95%;
+        margin: 0;
+        margin-left: 2rem;
+    }
+
+    .semi_sub_header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .check_in_field, .guest_field {
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .check_in_field {
+        padding-right: 10px;
+    }
+
+    .first_button {
+        margin: 0;
+        margin-left: 2rem;
+    }
+
+    .sec_two {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .train_img_container {
+        margin-left: 14px;
+    }
+
+    .forest_img_container {
+        margin-top: 1rem;
+    }
+
+    .mountain_hiking_container, .train_img_container, .forest_img_container {
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .mountain_hiking, .train_img, .forest_img {
+        padding-top: 15px;
+        padding-right: 5px;
+    }
+
+    .sub_balance {
+        background-color: #efeeeeb2;
+    }
+
+    .sub_section {
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        padding: 2rem 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .ticket_field {
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .sub_section_logo {
+        width: 2rem;
+    }
+
+    .lorem_text {
+        width: 13rem;
+        padding: 1rem 0;
+    }
+
+    .headings {
+        padding-top: 6px;
+    }
+
+    .heading {
+        padding-top: 8px;
+    }
+
+    .sub_header_two {
+        text-align: left;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+
+    .sub_header_three {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .greece_img, .sydney_img, .amsterdam_img {
+        height: auto;
+    }
+
+    .sub_header_four {
+        display: grid;
+        padding-left: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .amsterdam_img, .greece_img, .london-bridge, .sydney_img, .tokyo_img {
+        height: 50vh;
+    }
+
+    .sub_header_five {
+        text-align: start;
+        padding: 2rem 1rem;
+    }
+
+    .sub_division, .registration_section {
+        display: flex;
+    }
+
+    .component_ten, .component_three, .component_two {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .component_two {
+        padding: 0 5px;
+    }
+
+    .reports {
+        font-size: 11px;
+    }
+
+    .sub_division {
+        padding-bottom: 2rem;
+    }
+
+    .component_eleven {
+        height: 20rem;
+    }
+
+    .youtube_img {
+        width: 5rem;
+    }
+
+    .tour_guide {
+        text-align: start;
+        padding-left: 1rem;
+    }
+
+    .christian_jud_img {
+        width: 14.5rem;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .julius_img, .cynthia_img {
+        width: 14.5rem;
+        height: 20rem;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .julius_field {
+        margin: 0 1rem;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .christian_field, .cynthia_field {
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+        border-radius: 8px;
+    }
+
+    .morem_text {
+        width: 13rem;
+        font-size: 14px;
+    }
+
+    .recognition {
+        padding-left: 10px;
+    }
+
+    .feedback_subheader {
+        text-align: start;
+        padding: 2rem 0 2rem 1rem;
+    }
+
+    .text_article {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+    }
+
+    .fig {
+        padding-right: 13rem;
+    }
+
+    .fig_field_two {
+        margin-left: 1rem;
+    }
+
+    .fig_field_three {
+        margin: 2rem 0;
+    }
+
+    .fig_field_one, .fig_field_three, .fig_field_two {
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .jorem_text {
+        font-size: 14px;
+        width: 20rem;
+    }
+
+    .hill_image {
+        height: 20rem;
+    }
+
+    .sub_text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 8px 1rem;
+        border-radius: 8px;
+        width: 40rem;
+    }
+
+    .last_header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .horem_text {
+        font-size: 14px;
+        width: 15rem;
+    }
+
+    .page_footer {
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 0;
+    }
+
+    .first_links, .second_links, .third_links {
+        margin-top: 8px;
+    }
+
+    .sub_header_four_duplicate {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px)  {
+    .sub_header {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .first_button {
+        margin-left: 7rem;
+    }
+
+    .check_in_field, .guest_field {
+        padding: 0 2rem;
+    }
+
+    .main_text, .main_text_two {
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 700;
+    }
+
+    .desktop_nav_link, .sign_btn {
+        margin-left: 4rem;
+    }
+
+    .company_logo {
+        margin-right: 4rem;
+    }
+
+    .sub_section {
+        padding: 3rem 1rem 1rem 1rem;
+        justify-content: center;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        border-radius: 10px;
+    }
+
+    .sub_section_logo {
+        width: 3rem;
+    }
+
+    .heading, .headings, .headingss {
+        padding-top: 1.5rem;
+    }
+
+    .ticket_field {
+        padding: 0 5rem;
+    }
+
+    .lorem_text {
+        width: 12rem;
+    }
+
+    .main_header {
+        padding-bottom: 12rem;
+    }
+
+    .sub_header_two {
+        padding: 2rem 0 0 7rem;
+        font-size: 2rem;
+    }
+
+    .mountain_hiking, .train_img, .forest_img {
+        width: 20rem;
+        padding: 0 1rem 0 5px;
+    }
+
+    .mtn_hik {
+        padding-right: 9.5rem;
+    }
+
+    .train_tour {
+        padding-right: 10.5rem;
+    }
+
+    .fst_life {
+        padding-right: 12rem;
+    }
+
+    .from {
+        padding-right: 13rem;
+    }
+
+    .section_twoo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .train_img_container {
+        margin-right: 14px;
+    }
+
+    .forest_img_container {
+        margin-top: 0;
+    }
+
+    .cancel {
+        padding-right: 2rem;
+    }
+
+    .sub_division {
+        justify-content: center;
+    }
+
+    .component_ten, .component_three, .component_two {
+        width: 21rem;
+    }
+
+    .component_two {
+        padding: 0 8px;
+        border-radius: 15px;
+    }
+
+    .sub_header_five {
+        font-size: 2rem;
+        padding-top: 3rem;
+        padding-left: 8.5rem;
+    }
+
+    .sub_header_four {
+        display: none;
+    }
+
+    .sub_header_four_duplicate {
+        display: flex;
+        gap: 12px;
+        margin: 0 auto;
+    }
+
+    .tyk-lon, .gree {
+        display: flex;
+    }
+
+    .tables {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        position: absolute;
+        margin-top: -4rem;
+        text-align: start;
+        color: #fff;
+        padding-left: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .mountain-field, .london_field, .tokyo_field, .greece_field, .sydney_container, .amsterdam_field {
+        position: relative;
+    }
+
+    .mountain-image-field, .london-fld, .tokyo_fld, .greece_fld, .sydney_fld, .amsterdam_fld {
+        border-radius: 8px;
+        margin: 8px 0;
+    }
+
+    .mountain-image-field {
+        width: 20rem;
+    }
+
+    .london-fld {
+        width: 27.5rem;
+        height: 15rem;
+    }
+
+    .tokyo_field {
+        margin-left: 10px;
+    }
+
+    .tokyo_fld {
+        width: 13.5rem;
+        height: 15rem;
+    }
+
+    .sydney_field {
+        margin: 0 10px;
+    }
+
+    .sydney_fld {
+        width: 13.5rem;
+        height: 13.5rem;
+    }
+
+    .greece_fld {
+        width: 13.5rem;
+        height: 13.5rem;
+    }
+
+    .amsterdam_fld {
+        width: 13.5rem;
+        height: 13.5rem;
+    }
+
+    .sub_balance_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub_header_three {
+        padding: 2rem 0 1rem 8rem;
+        font-size: 2rem;
+    }
+
+    .registration_section {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .christian_jud_img {
+        width: 100%;
+    }
+
+    .julius_img {
+        width: 100%;
+    }
+
+    .julius_field {
+        width: 25%;
+    }
+
+    .tour_guide {
+        font-size: 2rem;
+        padding-left: 9rem;
+    }
+
+    .feedback_subheader {
+        font-size: 2rem;
+        padding: 3rem 0 2rem 9rem;
+    }
+
+    .cynthia_img {
+        width: 100%;
+    }
+
+   .morem_text {
+    width: 19rem;
+   }
+
+   .text_article {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+   }
+
+   .fig_field_two {
+    margin-right: 1rem;
+   }
+
+   .fig_field_three {
+    margin: 0;
+   }
+
+   .jorem_text {
+    width: 19rem;
+}
+
+.fig {
+    padding-right: 12rem;
+}
+
+.fig_field_one {
+    padding-right: 12px;
+}
+
+.clt_img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.clt_name {
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.last_header {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.sub_text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page_footer {
+    margin: 2rem 5rem;
+}
+
+}
