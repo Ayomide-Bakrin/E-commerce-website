@@ -705,16 +705,12 @@ html {
 
 @media screen and (min-width: 1280px)  {
     .sub_header {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
 
     .first_button {
-        margin-left: 7rem;
-    }
-
-    .check_in_field, .guest_field {
-        padding: 0 2rem;
+        margin-left: 4rem;
     }
 
     .main_text, .main_text_two {
@@ -847,6 +843,10 @@ html {
         color: #fff;
         padding-left: 1rem;
         line-height: 1.3rem;
+    }
+
+    .mountain_hiking_container, .train_img_container, .forest_img_container {
+        padding: 12px 0 12px 12px;
     }
 
     .mountain-field, .london_field, .tokyo_field, .greece_field, .sydney_container, .amsterdam_field {
